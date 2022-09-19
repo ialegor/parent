@@ -5,9 +5,41 @@
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
 
+    <parent>
+        <groupId>org.sonatype.oss</groupId>
+        <artifactId>oss-parent</artifactId>
+        <version>9</version>
+    </parent>
+
     <groupId>io.github.ialegor</groupId>
     <artifactId>parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+
+    <name>ialegor parent</name>
+    <description>Parent module for ialegor projects</description>
+    <url>https://github.com/ialegor/parent</url>
+
+    <developers>
+        <developer>
+            <id>owner</id>
+            <name>Alexey Gorshkov</name>
+            <email>agorshkov23@mail.ru</email>
+            <timezone>UTC+3</timezone>
+        </developer>
+    </developers>
+
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>https://opensource.org/licenses/mit-license</url>
+            <distribution>manual</distribution>
+        </license>
+    </licenses>
+
+    <scm>
+        <url>https://github.com/ialegor/parent</url>
+        <connection>scm:git:https://github.com/ialegor/parent</connection>
+    </scm>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
